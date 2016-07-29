@@ -1,0 +1,4437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - calldata@localhost" uuid="b0d5b849-bb25-4e48-ad40-7cfa07ce5be3">
+    <database-info product="PostgreSQL" version="9.3.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="POSTGRES" format-version="2.5">
+      <database id="1" name="calldata"/>
+      <schema id="2" parent="1" name="public">
+        <object-id>2200</object-id>
+        <comment>standard public schema</comment>
+        <introspection-state-number>2533</introspection-state-number>
+        <introspection-timestamp>2016-07-29.06:07:23.666</introspection-timestamp>
+      </schema>
+      <sequence id="3" parent="2" name="auth_group_id_seq">
+        <object-id>106529</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="4" parent="2" name="auth_group_permissions_id_seq">
+        <object-id>106539</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="5" parent="2" name="auth_permission_id_seq">
+        <object-id>106519</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="6" parent="2" name="auth_user_groups_id_seq">
+        <object-id>106559</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="7" parent="2" name="auth_user_id_seq">
+        <object-id>106549</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="8" parent="2" name="auth_user_user_permissions_id_seq">
+        <object-id>106569</object-id>
+        <state-number>2355</state-number>
+      </sequence>
+      <sequence id="9" parent="2" name="django_admin_log_id_seq">
+        <object-id>106623</object-id>
+        <state-number>2357</state-number>
+      </sequence>
+      <sequence id="10" parent="2" name="django_content_type_id_seq">
+        <object-id>106509</object-id>
+        <state-number>2353</state-number>
+      </sequence>
+      <sequence id="11" parent="2" name="django_migrations_id_seq">
+        <object-id>106498</object-id>
+        <state-number>2350</state-number>
+      </sequence>
+      <sequence id="12" parent="2" name="djangobmf_accounting_account_id_seq">
+        <object-id>106672</object-id>
+        <state-number>2371</state-number>
+      </sequence>
+      <sequence id="13" parent="2" name="djangobmf_accounting_account_parents_id_seq">
+        <object-id>106686</object-id>
+        <state-number>2371</state-number>
+      </sequence>
+      <sequence id="14" parent="2" name="djangobmf_accounting_transaction_id_seq">
+        <object-id>106696</object-id>
+        <state-number>2371</state-number>
+      </sequence>
+      <sequence id="15" parent="2" name="djangobmf_accounting_transactionitem_id_seq">
+        <object-id>106704</object-id>
+        <state-number>2371</state-number>
+      </sequence>
+      <sequence id="16" parent="2" name="djangobmf_activity_id_seq">
+        <object-id>106845</object-id>
+        <state-number>2383</state-number>
+      </sequence>
+      <sequence id="17" parent="2" name="djangobmf_address_address_id_seq">
+        <object-id>107082</object-id>
+        <state-number>2406</state-number>
+      </sequence>
+      <sequence id="18" parent="2" name="djangobmf_configuration_id_seq">
+        <object-id>106858</object-id>
+        <state-number>2383</state-number>
+      </sequence>
+      <sequence id="19" parent="2" name="djangobmf_customer_customer_id_seq">
+        <object-id>106787</object-id>
+        <state-number>2378</state-number>
+      </sequence>
+      <sequence id="20" parent="2" name="djangobmf_document_id_seq">
+        <object-id>106869</object-id>
+        <state-number>2383</state-number>
+      </sequence>
+      <sequence id="21" parent="2" name="djangobmf_employee_employee_id_seq">
+        <object-id>107219</object-id>
+        <state-number>2424</state-number>
+      </sequence>
+      <sequence id="22" parent="2" name="djangobmf_invoice_invoice_id_seq">
+        <object-id>107279</object-id>
+        <state-number>2435</state-number>
+      </sequence>
+      <sequence id="23" parent="2" name="djangobmf_invoice_invoiceproduct_id_seq">
+        <object-id>107290</object-id>
+        <state-number>2435</state-number>
+      </sequence>
+      <sequence id="24" parent="2" name="djangobmf_notification_id_seq">
+        <object-id>106882</object-id>
+        <state-number>2383</state-number>
+      </sequence>
+      <sequence id="25" parent="2" name="djangobmf_numberrange_id_seq">
+        <object-id>106892</object-id>
+        <state-number>2383</state-number>
+      </sequence>
+      <sequence id="26" parent="2" name="djangobmf_pdfrenderer_id_seq">
+        <object-id>107027</object-id>
+        <state-number>2399</state-number>
+      </sequence>
+      <sequence id="27" parent="2" name="djangobmf_position_position_id_seq">
+        <object-id>107406</object-id>
+        <state-number>2450</state-number>
+      </sequence>
+      <sequence id="28" parent="2" name="djangobmf_product_product_id_seq">
+        <object-id>107154</object-id>
+        <state-number>2421</state-number>
+      </sequence>
+      <sequence id="29" parent="2" name="djangobmf_product_producttax_id_seq">
+        <object-id>107167</object-id>
+        <state-number>2421</state-number>
+      </sequence>
+      <sequence id="30" parent="2" name="djangobmf_project_project_employees_id_seq">
+        <object-id>107539</object-id>
+        <state-number>2473</state-number>
+      </sequence>
+      <sequence id="31" parent="2" name="djangobmf_project_project_id_seq">
+        <object-id>106647</object-id>
+        <state-number>2369</state-number>
+      </sequence>
+      <sequence id="32" parent="2" name="djangobmf_quotation_quotation_id_seq">
+        <object-id>107577</object-id>
+        <state-number>2480</state-number>
+      </sequence>
+      <sequence id="33" parent="2" name="djangobmf_quotation_quotationproduct_id_seq">
+        <object-id>107590</object-id>
+        <state-number>2480</state-number>
+      </sequence>
+      <sequence id="34" parent="2" name="djangobmf_report_id_seq">
+        <object-id>107043</object-id>
+        <state-number>2399</state-number>
+      </sequence>
+      <sequence id="35" parent="2" name="djangobmf_task_goal_employees_id_seq">
+        <object-id>107710</object-id>
+        <state-number>2494</state-number>
+      </sequence>
+      <sequence id="36" parent="2" name="djangobmf_task_goal_id_seq">
+        <object-id>107699</object-id>
+        <state-number>2494</state-number>
+      </sequence>
+      <sequence id="37" parent="2" name="djangobmf_task_task_id_seq">
+        <object-id>107720</object-id>
+        <state-number>2494</state-number>
+      </sequence>
+      <sequence id="38" parent="2" name="djangobmf_taxing_tax_id_seq">
+        <object-id>107126</object-id>
+        <state-number>2418</state-number>
+      </sequence>
+      <sequence id="39" parent="2" name="djangobmf_team_team_id_seq">
+        <object-id>107489</object-id>
+        <state-number>2467</state-number>
+      </sequence>
+      <sequence id="40" parent="2" name="djangobmf_team_teammember_id_seq">
+        <object-id>107497</object-id>
+        <state-number>2467</state-number>
+      </sequence>
+      <sequence id="41" parent="2" name="djangobmf_timesheet_timesheet_id_seq">
+        <object-id>107880</object-id>
+        <state-number>2519</state-number>
+      </sequence>
+      <table id="42" parent="2" name="auth_group">
+        <object-id>106531</object-id>
+        <state-number>2355</state-number>
+      </table>
+      <table id="43" parent="2" name="auth_group_permissions">
+        <object-id>106541</object-id>
+        <state-number>2355</state-number>
+      </table>
+      <table id="44" parent="2" name="auth_permission">
+        <object-id>106521</object-id>
+        <state-number>2355</state-number>
+      </table>
+      <table id="45" parent="2" name="auth_user">
+        <object-id>106551</object-id>
+        <state-number>2526</state-number>
+      </table>
+      <table id="46" parent="2" name="auth_user_groups">
+        <object-id>106561</object-id>
+        <state-number>2355</state-number>
+      </table>
+      <table id="47" parent="2" name="auth_user_user_permissions">
+        <object-id>106571</object-id>
+        <state-number>2355</state-number>
+      </table>
+      <table id="48" parent="2" name="django_admin_log">
+        <object-id>106625</object-id>
+        <state-number>2357</state-number>
+      </table>
+      <table id="49" parent="2" name="django_content_type">
+        <object-id>106511</object-id>
+        <state-number>2399</state-number>
+      </table>
+      <table id="50" parent="2" name="django_migrations">
+        <object-id>106500</object-id>
+        <state-number>2350</state-number>
+      </table>
+      <table id="51" parent="2" name="django_session">
+        <object-id>107973</object-id>
+        <state-number>2533</state-number>
+      </table>
+      <table id="52" parent="2" name="djangobmf_accounting_account">
+        <object-id>106674</object-id>
+        <state-number>2421</state-number>
+      </table>
+      <table id="53" parent="2" name="djangobmf_accounting_account_parents">
+        <object-id>106688</object-id>
+        <state-number>2371</state-number>
+      </table>
+      <table id="54" parent="2" name="djangobmf_accounting_transaction">
+        <object-id>106698</object-id>
+        <state-number>2435</state-number>
+      </table>
+      <table id="55" parent="2" name="djangobmf_accounting_transactionitem">
+        <object-id>106706</object-id>
+        <state-number>2403</state-number>
+      </table>
+      <table id="56" parent="2" name="djangobmf_activity">
+        <object-id>106847</object-id>
+        <state-number>2383</state-number>
+      </table>
+      <table id="57" parent="2" name="djangobmf_address_address">
+        <object-id>107084</object-id>
+        <state-number>2480</state-number>
+      </table>
+      <table id="58" parent="2" name="djangobmf_configuration">
+        <object-id>106860</object-id>
+        <state-number>2383</state-number>
+      </table>
+      <table id="59" parent="2" name="djangobmf_customer_customer">
+        <object-id>106789</object-id>
+        <state-number>2480</state-number>
+      </table>
+      <table id="60" parent="2" name="djangobmf_document">
+        <object-id>106871</object-id>
+        <state-number>2448</state-number>
+      </table>
+      <table id="61" parent="2" name="djangobmf_employee_employee">
+        <object-id>107221</object-id>
+        <state-number>2519</state-number>
+      </table>
+      <table id="62" parent="2" name="djangobmf_invoice_invoice">
+        <object-id>107281</object-id>
+        <state-number>2480</state-number>
+      </table>
+      <table id="63" parent="2" name="djangobmf_invoice_invoiceproduct">
+        <object-id>107292</object-id>
+        <state-number>2445</state-number>
+      </table>
+      <table id="64" parent="2" name="djangobmf_notification">
+        <object-id>106884</object-id>
+        <state-number>2383</state-number>
+      </table>
+      <table id="65" parent="2" name="djangobmf_numberrange">
+        <object-id>106894</object-id>
+        <state-number>2383</state-number>
+      </table>
+      <table id="66" parent="2" name="djangobmf_pdfrenderer">
+        <object-id>107029</object-id>
+        <state-number>2399</state-number>
+      </table>
+      <table id="67" parent="2" name="djangobmf_position_position">
+        <object-id>107408</object-id>
+        <state-number>2459</state-number>
+      </table>
+      <table id="68" parent="2" name="djangobmf_product_product">
+        <object-id>107156</object-id>
+        <state-number>2480</state-number>
+      </table>
+      <table id="69" parent="2" name="djangobmf_product_producttax">
+        <object-id>107169</object-id>
+        <state-number>2465</state-number>
+      </table>
+      <table id="70" parent="2" name="djangobmf_project_project">
+        <object-id>106649</object-id>
+        <state-number>2519</state-number>
+      </table>
+      <table id="71" parent="2" name="djangobmf_project_project_employees">
+        <object-id>107541</object-id>
+        <state-number>2473</state-number>
+      </table>
+      <table id="72" parent="2" name="djangobmf_quotation_quotation">
+        <object-id>107579</object-id>
+        <state-number>2491</state-number>
+      </table>
+      <table id="73" parent="2" name="djangobmf_quotation_quotationproduct">
+        <object-id>107592</object-id>
+        <state-number>2491</state-number>
+      </table>
+      <table id="74" parent="2" name="djangobmf_report">
+        <object-id>107045</object-id>
+        <state-number>2399</state-number>
+      </table>
+      <table id="75" parent="2" name="djangobmf_task_goal">
+        <object-id>107701</object-id>
+        <state-number>2531</state-number>
+      </table>
+      <table id="76" parent="2" name="djangobmf_task_goal_employees">
+        <object-id>107712</object-id>
+        <state-number>2494</state-number>
+      </table>
+      <table id="77" parent="2" name="djangobmf_task_task">
+        <object-id>107722</object-id>
+        <state-number>2519</state-number>
+      </table>
+      <table id="78" parent="2" name="djangobmf_taxing_tax">
+        <object-id>107128</object-id>
+        <state-number>2508</state-number>
+      </table>
+      <table id="79" parent="2" name="djangobmf_team_team">
+        <object-id>107491</object-id>
+        <state-number>2517</state-number>
+      </table>
+      <table id="80" parent="2" name="djangobmf_team_teammember">
+        <object-id>107499</object-id>
+        <state-number>2517</state-number>
+      </table>
+      <table id="81" parent="2" name="djangobmf_timesheet_timesheet">
+        <object-id>107882</object-id>
+        <state-number>2531</state-number>
+      </table>
+      <column id="82" parent="42" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_group_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="83" parent="42" name="name">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(80)</data-type>
+      </column>
+      <index id="84" parent="42" name="auth_group_pkey">
+        <object-id>106535</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="85" parent="42" name="auth_group_name_key">
+        <object-id>106537</object-id>
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="86" parent="42" name="auth_group_name_74bb2329_like">
+        <object-id>106585</object-id>
+        <columns>name</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="87" parent="42" name="auth_group_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_group_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="88" parent="42" name="auth_group_name_key">
+        <columns>name</columns>
+        <underlying-index>auth_group_name_key</underlying-index>
+      </key>
+      <column id="89" parent="43" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_group_permissions_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="90" parent="43" name="group_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="91" parent="43" name="permission_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="92" parent="43" name="auth_group_permissions_pkey">
+        <object-id>106545</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="93" parent="43" name="auth_group_permissions_group_id_permission_id_key">
+        <object-id>106547</object-id>
+        <columns>group_id
+permission_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="94" parent="43" name="auth_group_permissions_0e939a4f">
+        <object-id>106596</object-id>
+        <columns>group_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="95" parent="43" name="auth_group_permissions_8373b171">
+        <object-id>106597</object-id>
+        <columns>permission_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="96" parent="43" name="auth_group_permissions_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_group_permissions_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="97" parent="43" name="auth_group_permissions_group_id_permission_id_key">
+        <columns>group_id
+permission_id</columns>
+        <underlying-index>auth_group_permissions_group_id_permission_id_key</underlying-index>
+      </key>
+      <foreign-key id="98" parent="43" name="auth_group_permissions_group_id_7ef1c625_fk_auth_group_id">
+        <columns>group_id</columns>
+        <ref-key>~.auth_group.auth_group_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="99" parent="43" name="auth_group_permiss_permission_id_2f4b7f73_fk_auth_permission_id">
+        <columns>permission_id</columns>
+        <ref-key>~.auth_permission.auth_permission_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="100" parent="44" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_permission_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="101" parent="44" name="name">
+        <state-number>2361</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="102" parent="44" name="content_type_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="103" parent="44" name="codename">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <index id="104" parent="44" name="auth_permission_pkey">
+        <object-id>106525</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="105" parent="44" name="auth_permission_content_type_id_codename_key">
+        <object-id>106527</object-id>
+        <columns>content_type_id
+codename</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="106" parent="44" name="auth_permission_417f1b1c">
+        <object-id>106584</object-id>
+        <columns>content_type_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="107" parent="44" name="auth_permission_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_permission_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="108" parent="44" name="auth_permission_content_type_id_codename_key">
+        <columns>content_type_id
+codename</columns>
+        <underlying-index>auth_permission_content_type_id_codename_key</underlying-index>
+      </key>
+      <foreign-key id="109" parent="44" name="auth_permiss_content_type_id_6d0d35b4_fk_django_content_type_id">
+        <columns>content_type_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="110" parent="45" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_user_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="111" parent="45" name="password">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(128)</data-type>
+      </column>
+      <column id="112" parent="45" name="last_login">
+        <state-number>2366</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="113" parent="45" name="is_superuser">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="114" parent="45" name="username">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="115" parent="45" name="first_name">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="116" parent="45" name="last_name">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="117" parent="45" name="email">
+        <state-number>2363</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(254)</data-type>
+      </column>
+      <column id="118" parent="45" name="is_staff">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="119" parent="45" name="is_active">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="120" parent="45" name="date_joined">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <index id="121" parent="45" name="auth_user_pkey">
+        <object-id>106555</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="122" parent="45" name="auth_user_username_key">
+        <object-id>106557</object-id>
+        <columns>username</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="123" parent="45" name="auth_user_username_37b4628a_like">
+        <object-id>106598</object-id>
+        <columns>username</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="124" parent="45" name="auth_user_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_user_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="125" parent="45" name="auth_user_username_key">
+        <columns>username</columns>
+        <underlying-index>auth_user_username_key</underlying-index>
+      </key>
+      <column id="126" parent="46" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_user_groups_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="127" parent="46" name="user_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="128" parent="46" name="group_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="129" parent="46" name="auth_user_groups_pkey">
+        <object-id>106565</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="130" parent="46" name="auth_user_groups_user_id_group_id_key">
+        <object-id>106567</object-id>
+        <columns>user_id
+group_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="131" parent="46" name="auth_user_groups_e8701ad4">
+        <object-id>106609</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="132" parent="46" name="auth_user_groups_0e939a4f">
+        <object-id>106610</object-id>
+        <columns>group_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="133" parent="46" name="auth_user_groups_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_user_groups_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="134" parent="46" name="auth_user_groups_user_id_group_id_key">
+        <columns>user_id
+group_id</columns>
+        <underlying-index>auth_user_groups_user_id_group_id_key</underlying-index>
+      </key>
+      <foreign-key id="135" parent="46" name="auth_user_groups_user_id_4272c7ed_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="136" parent="46" name="auth_user_groups_group_id_3f43a8a3_fk_auth_group_id">
+        <columns>group_id</columns>
+        <ref-key>~.auth_group.auth_group_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="137" parent="47" name="id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;auth_user_user_permissions_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="138" parent="47" name="user_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="139" parent="47" name="permission_id">
+        <state-number>2355</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="140" parent="47" name="auth_user_user_permissions_pkey">
+        <object-id>106575</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="141" parent="47" name="auth_user_user_permissions_user_id_permission_id_key">
+        <object-id>106577</object-id>
+        <columns>user_id
+permission_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="142" parent="47" name="auth_user_user_permissions_e8701ad4">
+        <object-id>106621</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="143" parent="47" name="auth_user_user_permissions_8373b171">
+        <object-id>106622</object-id>
+        <columns>permission_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="144" parent="47" name="auth_user_user_permissions_pkey">
+        <columns>id</columns>
+        <underlying-index>auth_user_user_permissions_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="145" parent="47" name="auth_user_user_permissions_user_id_permission_id_key">
+        <columns>user_id
+permission_id</columns>
+        <underlying-index>auth_user_user_permissions_user_id_permission_id_key</underlying-index>
+      </key>
+      <foreign-key id="146" parent="47" name="auth_user_user_permissions_user_id_414155d9_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="147" parent="47" name="auth_user_user_perm_permission_id_a3a19bf_fk_auth_permission_id">
+        <columns>permission_id</columns>
+        <ref-key>~.auth_permission.auth_permission_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="148" parent="48" name="id">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;django_admin_log_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="149" parent="48" name="action_time">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="150" parent="48" name="object_id">
+        <state-number>2357</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="151" parent="48" name="object_repr">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="152" parent="48" name="action_flag">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="153" parent="48" name="change_message">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="154" parent="48" name="content_type_id">
+        <state-number>2357</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="155" parent="48" name="user_id">
+        <state-number>2357</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="156" parent="48" name="django_admin_log_pkey">
+        <object-id>106633</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="157" parent="48" name="django_admin_log_417f1b1c">
+        <object-id>106645</object-id>
+        <columns>content_type_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="158" parent="48" name="django_admin_log_e8701ad4">
+        <object-id>106646</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="159" parent="48" name="django_admin_log_pkey">
+        <columns>id</columns>
+        <underlying-index>django_admin_log_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="160" parent="48" name="django_admin_content_type_id_618cf14c_fk_django_content_type_id">
+        <columns>content_type_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="161" parent="48" name="django_admin_log_user_id_751b0924_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="162" parent="48" name="django_admin_log_action_flag_check">
+        <columns>action_flag</columns>
+        <predicate>action_flag &gt;= 0</predicate>
+      </check>
+      <column id="163" parent="49" name="id">
+        <state-number>2353</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;django_content_type_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="164" parent="49" name="app_label">
+        <state-number>2353</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="165" parent="49" name="model">
+        <state-number>2353</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <index id="166" parent="49" name="django_content_type_pkey">
+        <object-id>106515</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="167" parent="49" name="django_content_type_app_label_593e2b6a_uniq">
+        <object-id>106517</object-id>
+        <columns>app_label
+model</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="168" parent="49" name="django_content_type_pkey">
+        <columns>id</columns>
+        <underlying-index>django_content_type_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="169" parent="49" name="django_content_type_app_label_593e2b6a_uniq">
+        <columns>app_label
+model</columns>
+        <underlying-index>django_content_type_app_label_593e2b6a_uniq</underlying-index>
+      </key>
+      <column id="170" parent="50" name="id">
+        <state-number>2350</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;django_migrations_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="171" parent="50" name="app">
+        <state-number>2350</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="172" parent="50" name="name">
+        <state-number>2350</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="173" parent="50" name="applied">
+        <state-number>2350</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <index id="174" parent="50" name="django_migrations_pkey">
+        <object-id>106507</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="175" parent="50" name="django_migrations_pkey">
+        <columns>id</columns>
+        <underlying-index>django_migrations_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="176" parent="51" name="session_key">
+        <state-number>2533</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="177" parent="51" name="session_data">
+        <state-number>2533</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="178" parent="51" name="expire_date">
+        <state-number>2533</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <index id="179" parent="51" name="django_session_pkey">
+        <object-id>107979</object-id>
+        <columns>session_key</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="180" parent="51" name="django_session_session_key_5afdf26c_like">
+        <object-id>107982</object-id>
+        <columns>session_key</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="181" parent="51" name="django_session_de54fa62">
+        <object-id>107981</object-id>
+        <columns>expire_date</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="182" parent="51" name="django_session_pkey">
+        <columns>session_key</columns>
+        <underlying-index>django_session_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <column id="183" parent="52" name="id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_accounting_account_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="184" parent="52" name="balance_currency">
+        <state-number>2371</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="185" parent="52" name="balance">
+        <state-number>2401</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="186" parent="52" name="number">
+        <state-number>2371</state-number>
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="187" parent="52" name="name">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="188" parent="52" name="type">
+        <state-number>2371</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="189" parent="52" name="read_only">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="190" parent="52" name="comment">
+        <state-number>2371</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="191" parent="52" name="modified">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="192" parent="52" name="created">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="193" parent="52" name="created_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="194" parent="52" name="modified_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="195" parent="52" name="parent_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="196" parent="52" name="djangobmf_accounting_account_pkey">
+        <object-id>106682</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="197" parent="52" name="djangobmf_accounting_account_number_key">
+        <object-id>106684</object-id>
+        <columns>number</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="198" parent="52" name="djangobmf_accounting_account_number_60ade6cc_like">
+        <object-id>106730</object-id>
+        <columns>number</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="199" parent="52" name="djangobmf_accounting_account_e93cb7eb">
+        <object-id>106727</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="200" parent="52" name="djangobmf_accounting_account_b3da0983">
+        <object-id>106728</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="201" parent="52" name="djangobmf_accounting_account_6be37982">
+        <object-id>106729</object-id>
+        <columns>parent_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="202" parent="52" name="djangobmf_accounting_account_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_accounting_account_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="203" parent="52" name="djangobmf_accounting_account_number_key">
+        <columns>number</columns>
+        <underlying-index>djangobmf_accounting_account_number_key</underlying-index>
+      </key>
+      <foreign-key id="204" parent="52" name="djangobmf_accounting_acc_created_by_id_6243f8fb_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="205" parent="52" name="djangobmf_accounting_ac_modified_by_id_6e7bacfb_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="206" parent="52" name="djangobmf_parent_id_50901f25_fk_djangobmf_accounting_account_id">
+        <columns>parent_id</columns>
+        <ref-key>djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="207" parent="52" name="djangobmf_accounting_account_type_check">
+        <columns>type</columns>
+        <predicate>type &gt;= 0</predicate>
+      </check>
+      <column id="208" parent="53" name="id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_accounting_account_parents_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="209" parent="53" name="from_account_id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="210" parent="53" name="to_account_id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="211" parent="53" name="djangobmf_accounting_account_parents_pkey">
+        <object-id>106692</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="212" parent="53" name="djangobmf_accounting_account__from_account_id_to_account_id_key">
+        <object-id>106694</object-id>
+        <columns>from_account_id
+to_account_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="213" parent="53" name="djangobmf_accounting_account_parents_851e1880">
+        <object-id>106741</object-id>
+        <columns>from_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="214" parent="53" name="djangobmf_accounting_account_parents_ea1ecf23">
+        <object-id>106742</object-id>
+        <columns>to_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="215" parent="53" name="djangobmf_accounting_account_parents_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_accounting_account_parents_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="216" parent="53" name="djangobmf_accounting_account__from_account_id_to_account_id_key">
+        <columns>from_account_id
+to_account_id</columns>
+        <underlying-index>djangobmf_accounting_account__from_account_id_to_account_id_key</underlying-index>
+      </key>
+      <foreign-key id="217" parent="53" name="dja_from_account_id_45c58fea_fk_djangobmf_accounting_account_id">
+        <columns>from_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="218" parent="53" name="djang_to_account_id_273a6c62_fk_djangobmf_accounting_account_id">
+        <columns>to_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="219" parent="54" name="id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_accounting_transaction_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="220" parent="54" name="text">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="221" parent="54" name="draft">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="222" parent="54" name="state">
+        <state-number>2371</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="223" parent="54" name="modified">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="224" parent="54" name="created">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="225" parent="54" name="created_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="226" parent="54" name="modified_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="227" parent="54" name="project_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="228" parent="54" name="djangobmf_accounting_transaction_pkey">
+        <object-id>106702</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="229" parent="54" name="djangobmf_accounting_transaction_9ed39e2e">
+        <object-id>106758</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="230" parent="54" name="djangobmf_accounting_transaction_state_2bde0a9c_like">
+        <object-id>106762</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="231" parent="54" name="djangobmf_accounting_transaction_e93cb7eb">
+        <object-id>106759</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="232" parent="54" name="djangobmf_accounting_transaction_b3da0983">
+        <object-id>106760</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="233" parent="54" name="djangobmf_accounting_transaction_b098ad43">
+        <object-id>106761</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="234" parent="54" name="djangobmf_accounting_transaction_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_accounting_transaction_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="235" parent="54" name="djangobmf_accounting_tra_created_by_id_2f312f07_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="236" parent="54" name="djangobmf_accounting_tr_modified_by_id_7a8ac307_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="237" parent="54" name="djangobmf_a_project_id_61841455_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="238" parent="55" name="id">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_accounting_transactionitem_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="239" parent="55" name="amount_currency">
+        <state-number>2371</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="240" parent="55" name="amount">
+        <state-number>2371</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="241" parent="55" name="credit">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="242" parent="55" name="draft">
+        <state-number>2371</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="243" parent="55" name="modified">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="244" parent="55" name="created">
+        <state-number>2371</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="245" parent="55" name="account_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="246" parent="55" name="created_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="247" parent="55" name="modified_by_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="248" parent="55" name="transaction_id">
+        <state-number>2371</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="249" parent="55" name="date">
+        <state-number>2403</state-number>
+        <data-type>date</data-type>
+      </column>
+      <index id="250" parent="55" name="djangobmf_accounting_transactionitem_pkey">
+        <object-id>106710</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="251" parent="55" name="djangobmf_accounting_transactionitem_8a089c2a">
+        <object-id>106783</object-id>
+        <columns>account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="252" parent="55" name="djangobmf_accounting_transactionitem_e93cb7eb">
+        <object-id>106784</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="253" parent="55" name="djangobmf_accounting_transactionitem_b3da0983">
+        <object-id>106785</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="254" parent="55" name="djangobmf_accounting_transactionitem_f847de52">
+        <object-id>106786</object-id>
+        <columns>transaction_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="255" parent="55" name="djangobmf_accounting_transactionitem_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_accounting_transactionitem_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="256" parent="55" name="djangobm_account_id_530702d9_fk_djangobmf_accounting_account_id">
+        <columns>account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="257" parent="55" name="djangobmf_accounting_tran_created_by_id_f89a3b5_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="258" parent="55" name="djangobmf_accounting_tr_modified_by_id_49541fb5_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="259" parent="55" name="transaction_id_4583108d_fk_djangobmf_accounting_transaction_id">
+        <columns>transaction_id</columns>
+        <ref-key>~.djangobmf_accounting_transaction.djangobmf_accounting_transaction_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="260" parent="56" name="id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_activity_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="261" parent="56" name="topic">
+        <state-number>2383</state-number>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="262" parent="56" name="text">
+        <state-number>2383</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="263" parent="56" name="action">
+        <state-number>2383</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="264" parent="56" name="template">
+        <state-number>2383</state-number>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="265" parent="56" name="parent_id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="266" parent="56" name="modified">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="267" parent="56" name="parent_ct_id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="268" parent="56" name="user_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="269" parent="56" name="djangobmf_activity_pkey">
+        <object-id>106856</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="270" parent="56" name="djangobmf_activity_e3961373">
+        <object-id>106941</object-id>
+        <columns>parent_ct_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="271" parent="56" name="djangobmf_activity_e8701ad4">
+        <object-id>106942</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="272" parent="56" name="djangobmf_activity_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_activity_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="273" parent="56" name="djangobmf_activ_parent_ct_id_6afaa9e8_fk_django_content_type_id">
+        <columns>parent_ct_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="274" parent="56" name="djangobmf_activity_user_id_35349e2a_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="275" parent="56" name="djangobmf_activity_action_check">
+        <columns>action</columns>
+        <predicate>action &gt;= 0</predicate>
+      </check>
+      <check id="276" parent="56" name="djangobmf_activity_parent_id_check">
+        <columns>parent_id</columns>
+        <predicate>parent_id &gt;= 0</predicate>
+      </check>
+      <column id="277" parent="57" name="id">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_address_address_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="278" parent="57" name="modified">
+        <state-number>2406</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="279" parent="57" name="created">
+        <state-number>2406</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="280" parent="57" name="is_active">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="281" parent="57" name="is_billing">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="282" parent="57" name="is_shipping">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="283" parent="57" name="default_billing">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="284" parent="57" name="default_shipping">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="285" parent="57" name="name">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="286" parent="57" name="name2">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="287" parent="57" name="street">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="288" parent="57" name="zip">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="289" parent="57" name="city">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="290" parent="57" name="state">
+        <state-number>2406</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="291" parent="57" name="old_country">
+        <state-number>2410</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="292" parent="57" name="created_by_id">
+        <state-number>2406</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="293" parent="57" name="customer_id">
+        <state-number>2406</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="294" parent="57" name="modified_by_id">
+        <state-number>2406</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="295" parent="57" name="country">
+        <state-number>2410</state-number>
+        <data-type>varchar(3)</data-type>
+      </column>
+      <index id="296" parent="57" name="djangobmf_address_address_pkey">
+        <object-id>107091</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="297" parent="57" name="djangobmf_address_address_e93cb7eb">
+        <object-id>107108</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="298" parent="57" name="djangobmf_address_address_cb24373b">
+        <object-id>107109</object-id>
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="299" parent="57" name="djangobmf_address_address_b3da0983">
+        <object-id>107110</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="300" parent="57" name="djangobmf_address_address_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_address_address_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="301" parent="57" name="djangobmf_address_address_created_by_id_33a8c0_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="302" parent="57" name="djangobm_customer_id_689c9b7a_fk_djangobmf_customer_customer_id">
+        <columns>customer_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="303" parent="57" name="djangobmf_address_addres_modified_by_id_3af0cc0_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="304" parent="58" name="id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_configuration_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="305" parent="58" name="app_label">
+        <state-number>2383</state-number>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="306" parent="58" name="field_name">
+        <state-number>2383</state-number>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="307" parent="58" name="value">
+        <state-number>2383</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="308" parent="58" name="active">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <index id="309" parent="58" name="djangobmf_configuration_pkey">
+        <object-id>106867</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="310" parent="58" name="djangobmf_configuration_app_label_74e89b39_uniq">
+        <object-id>106925</object-id>
+        <columns>app_label
+field_name</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <key id="311" parent="58" name="djangobmf_configuration_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_configuration_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="312" parent="58" name="djangobmf_configuration_app_label_74e89b39_uniq">
+        <columns>app_label
+field_name</columns>
+        <underlying-index>djangobmf_configuration_app_label_74e89b39_uniq</underlying-index>
+      </key>
+      <column id="313" parent="59" name="id">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_customer_customer_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="314" parent="59" name="modified">
+        <state-number>2378</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="315" parent="59" name="created">
+        <state-number>2378</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="316" parent="59" name="name">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="317" parent="59" name="number">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="318" parent="59" name="is_company">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="319" parent="59" name="taxvat">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="320" parent="59" name="use_company_addresses">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="321" parent="59" name="is_active">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="322" parent="59" name="is_customer">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="323" parent="59" name="is_supplier">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="324" parent="59" name="customer_payment_term">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="325" parent="59" name="supplier_payment_term">
+        <state-number>2378</state-number>
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="326" parent="59" name="name2">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="327" parent="59" name="job_position">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="328" parent="59" name="title">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="329" parent="59" name="phone_office">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="330" parent="59" name="phone_privat">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="331" parent="59" name="phone_mobile">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="332" parent="59" name="email">
+        <state-number>2416</state-number>
+        <data-type>varchar(254)</data-type>
+      </column>
+      <column id="333" parent="59" name="fax">
+        <state-number>2378</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="334" parent="59" name="website">
+        <state-number>2378</state-number>
+        <data-type>varchar(200)</data-type>
+      </column>
+      <column id="335" parent="59" name="notes">
+        <state-number>2378</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="336" parent="59" name="asset_account_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="337" parent="59" name="created_by_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="338" parent="59" name="employee_at_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="339" parent="59" name="liability_account_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="340" parent="59" name="modified_by_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="341" parent="59" name="project_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="342" parent="59" name="user_id">
+        <state-number>2378</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="343" parent="59" name="djangobmf_customer_customer_pkey">
+        <object-id>106798</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="344" parent="59" name="djangobmf_customer_customer_user_id_key">
+        <object-id>106800</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="345" parent="59" name="djangobmf_customer_customer_3342270f">
+        <object-id>106838</object-id>
+        <columns>asset_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="346" parent="59" name="djangobmf_customer_customer_e93cb7eb">
+        <object-id>106839</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="347" parent="59" name="djangobmf_customer_customer_a5341aa4">
+        <object-id>106840</object-id>
+        <columns>employee_at_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="348" parent="59" name="djangobmf_customer_customer_2bba0364">
+        <object-id>106841</object-id>
+        <columns>liability_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="349" parent="59" name="djangobmf_customer_customer_b3da0983">
+        <object-id>106842</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="350" parent="59" name="djangobmf_customer_customer_b098ad43">
+        <object-id>106843</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="351" parent="59" name="djangobmf_customer_customer_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_customer_customer_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="352" parent="59" name="djangobmf_customer_customer_user_id_key">
+        <columns>user_id</columns>
+        <underlying-index>djangobmf_customer_customer_user_id_key</underlying-index>
+      </key>
+      <foreign-key id="353" parent="59" name="dj_asset_account_id_682f4f02_fk_djangobmf_accounting_account_id">
+        <columns>asset_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="354" parent="59" name="djangobmf_customer_custo_created_by_id_15c406f3_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="355" parent="59" name="djang_employee_at_id_33d0f664_fk_djangobmf_customer_customer_id">
+        <columns>employee_at_id</columns>
+        <ref-key>djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="356" parent="59" name="D5547f69d95379acdf346362b25fdf3c">
+        <columns>liability_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="357" parent="59" name="djangobmf_customer_cust_modified_by_id_51676af3_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="358" parent="59" name="djangobmf_c_project_id_5e31aa11_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="359" parent="59" name="djangobmf_customer_customer_user_id_f9bf7bc_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="360" parent="59" name="djangobmf_customer_customer_customer_payment_term_check">
+        <columns>customer_payment_term</columns>
+        <predicate>customer_payment_term &gt;= 0</predicate>
+      </check>
+      <check id="361" parent="59" name="djangobmf_customer_customer_supplier_payment_term_check">
+        <columns>supplier_payment_term</columns>
+        <predicate>supplier_payment_term &gt;= 0</predicate>
+      </check>
+      <column id="362" parent="60" name="id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_document_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="363" parent="60" name="name">
+        <state-number>2383</state-number>
+        <data-type>varchar(120)</data-type>
+      </column>
+      <column id="364" parent="60" name="mimetype">
+        <state-number>2383</state-number>
+        <data-type>varchar(120)</data-type>
+      </column>
+      <column id="365" parent="60" name="encoding">
+        <state-number>2383</state-number>
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="366" parent="60" name="description">
+        <state-number>2383</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="367" parent="60" name="file">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+      </column>
+      <column id="368" parent="60" name="size">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="369" parent="60" name="sha1">
+        <state-number>2383</state-number>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="370" parent="60" name="is_static">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="371" parent="60" name="file_exists">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="372" parent="60" name="content_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="373" parent="60" name="modified">
+        <state-number>2383</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="374" parent="60" name="created">
+        <state-number>2383</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="375" parent="60" name="content_type_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="376" parent="60" name="created_by_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="377" parent="60" name="customer_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="378" parent="60" name="modified_by_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="379" parent="60" name="project_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="380" parent="60" name="djangobmf_document_pkey">
+        <object-id>106880</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="381" parent="60" name="djangobmf_document_417f1b1c">
+        <object-id>106968</object-id>
+        <columns>content_type_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="382" parent="60" name="djangobmf_document_e93cb7eb">
+        <object-id>106969</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="383" parent="60" name="djangobmf_document_cb24373b">
+        <object-id>106970</object-id>
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="384" parent="60" name="djangobmf_document_b3da0983">
+        <object-id>106971</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="385" parent="60" name="djangobmf_document_b098ad43">
+        <object-id>106972</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="386" parent="60" name="djangobmf_document_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_document_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="387" parent="60" name="djangobmf_do_content_type_id_2a8652da_fk_django_content_type_id">
+        <columns>content_type_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="388" parent="60" name="djangobmf_document_created_by_id_8d42d7f_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="389" parent="60" name="djangobm_customer_id_64cfdfc7_fk_djangobmf_customer_customer_id">
+        <columns>customer_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="390" parent="60" name="djangobmf_document_modified_by_id_2d5b8681_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="391" parent="60" name="djangobmf_do_project_id_7adef25_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="392" parent="60" name="djangobmf_document_size_check">
+        <columns>size</columns>
+        <predicate>size &gt;= 0</predicate>
+      </check>
+      <check id="393" parent="60" name="djangobmf_document_content_id_check">
+        <columns>content_id</columns>
+        <predicate>content_id &gt;= 0</predicate>
+      </check>
+      <column id="394" parent="61" name="id">
+        <state-number>2424</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_employee_employee_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="395" parent="61" name="modified">
+        <state-number>2424</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="396" parent="61" name="created">
+        <state-number>2424</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="397" parent="61" name="name">
+        <state-number>2424</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="398" parent="61" name="email">
+        <state-number>2433</state-number>
+        <data-type>varchar(254)</data-type>
+      </column>
+      <column id="399" parent="61" name="phone_office">
+        <state-number>2424</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="400" parent="61" name="phone_mobile">
+        <state-number>2424</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="401" parent="61" name="fax">
+        <state-number>2424</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="402" parent="61" name="contact_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="403" parent="61" name="created_by_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="404" parent="61" name="modified_by_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="405" parent="61" name="product_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="406" parent="61" name="supervisor_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="407" parent="61" name="user_id">
+        <state-number>2424</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="408" parent="61" name="djangobmf_employee_employee_pkey">
+        <object-id>107228</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="409" parent="61" name="djangobmf_employee_employee_user_id_key">
+        <object-id>107230</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="410" parent="61" name="djangobmf_employee_employee_6d82f13d">
+        <object-id>107263</object-id>
+        <columns>contact_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="411" parent="61" name="djangobmf_employee_employee_e93cb7eb">
+        <object-id>107264</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="412" parent="61" name="djangobmf_employee_employee_b3da0983">
+        <object-id>107265</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="413" parent="61" name="djangobmf_employee_employee_9bea82de">
+        <object-id>107266</object-id>
+        <columns>product_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="414" parent="61" name="djangobmf_employee_employee_eae0a89e">
+        <object-id>107267</object-id>
+        <columns>supervisor_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="415" parent="61" name="djangobmf_employee_employee_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_employee_employee_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="416" parent="61" name="djangobmf_employee_employee_user_id_key">
+        <columns>user_id</columns>
+        <underlying-index>djangobmf_employee_employee_user_id_key</underlying-index>
+      </key>
+      <foreign-key id="417" parent="61" name="djangobmf_contact_id_7fb5c8e2_fk_djangobmf_customer_customer_id">
+        <columns>contact_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="418" parent="61" name="djangobmf_employee_emplo_created_by_id_33982069_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="419" parent="61" name="djangobmf_employee_empl_modified_by_id_78ed1c69_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="420" parent="61" name="djangobmf_e_product_id_72337b0a_fk_djangobmf_product_product_id">
+        <columns>product_id</columns>
+        <ref-key>~.djangobmf_product_product.djangobmf_product_product_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="421" parent="61" name="django_supervisor_id_74b4941e_fk_djangobmf_employee_employee_id">
+        <columns>supervisor_id</columns>
+        <ref-key>djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="422" parent="61" name="djangobmf_employee_employee_user_id_1124f1f8_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="423" parent="62" name="id">
+        <state-number>2435</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_invoice_invoice_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="424" parent="62" name="modified">
+        <state-number>2435</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="425" parent="62" name="created">
+        <state-number>2435</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="426" parent="62" name="state">
+        <state-number>2435</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="427" parent="62" name="invoice_number">
+        <state-number>2435</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="428" parent="62" name="net">
+        <state-number>2435</state-number>
+        <data-type>double precision</data-type>
+      </column>
+      <column id="429" parent="62" name="date">
+        <state-number>2435</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="430" parent="62" name="due">
+        <state-number>2435</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="431" parent="62" name="notes">
+        <state-number>2435</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="432" parent="62" name="term_of_payment">
+        <state-number>2435</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="433" parent="62" name="created_by_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="434" parent="62" name="customer_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="435" parent="62" name="employee_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="436" parent="62" name="invoice_address_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="437" parent="62" name="modified_by_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="438" parent="62" name="project_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="439" parent="62" name="shipping_address_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="440" parent="62" name="transaction_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="441" parent="62" name="invoice_id">
+        <state-number>2448</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="442" parent="62" name="djangobmf_invoice_invoice_pkey">
+        <object-id>107288</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="443" parent="62" name="djangobmf_invoice_invoice_9ed39e2e">
+        <object-id>107328</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="444" parent="62" name="djangobmf_invoice_invoice_state_6637a961_like">
+        <object-id>107335</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="445" parent="62" name="djangobmf_invoice_invoice_e93cb7eb">
+        <object-id>107329</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="446" parent="62" name="djangobmf_invoice_invoice_cb24373b">
+        <object-id>107330</object-id>
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="447" parent="62" name="djangobmf_invoice_invoice_dcc97e32">
+        <object-id>107331</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="448" parent="62" name="djangobmf_invoice_invoice_7ea08e4e">
+        <object-id>107332</object-id>
+        <columns>invoice_address_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="449" parent="62" name="djangobmf_invoice_invoice_b3da0983">
+        <object-id>107333</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="450" parent="62" name="djangobmf_invoice_invoice_b098ad43">
+        <object-id>107362</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="451" parent="62" name="djangobmf_invoice_invoice_8fb9ffec">
+        <object-id>107368</object-id>
+        <columns>shipping_address_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="452" parent="62" name="djangobmf_invoice_invoice_f847de52">
+        <object-id>107374</object-id>
+        <columns>transaction_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="453" parent="62" name="djangobmf_invoice_invoice_f1f5d967">
+        <object-id>107400</object-id>
+        <columns>invoice_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="454" parent="62" name="djangobmf_invoice_invoice_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_invoice_invoice_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="455" parent="62" name="djangobmf_invoice_invoic_created_by_id_56db6f04_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="456" parent="62" name="djangobm_customer_id_2fd231be_fk_djangobmf_customer_customer_id">
+        <columns>customer_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="457" parent="62" name="djangobm_employee_id_6ce88865_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="458" parent="62" name="dja_invoice_address_id_2ec91076_fk_djangobmf_address_address_id">
+        <columns>invoice_address_id</columns>
+        <ref-key>~.djangobmf_address_address.djangobmf_address_address_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="459" parent="62" name="djangobmf_invoice_invoi_modified_by_id_1bd674fc_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="460" parent="62" name="djangobmf_i_project_id_3e742260_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="461" parent="62" name="dj_shipping_address_id_3d8df5f4_fk_djangobmf_address_address_id">
+        <columns>shipping_address_id</columns>
+        <ref-key>~.djangobmf_address_address.djangobmf_address_address_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="462" parent="62" name="transaction_id_22f94146_fk_djangobmf_accounting_transaction_id">
+        <columns>transaction_id</columns>
+        <ref-key>~.djangobmf_accounting_transaction.djangobmf_accounting_transaction_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="463" parent="62" name="djangobmf_invoice__invoice_id_7fd2e846_fk_djangobmf_document_id">
+        <columns>invoice_id</columns>
+        <ref-key>~.djangobmf_document.djangobmf_document_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="464" parent="63" name="id">
+        <state-number>2435</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_invoice_invoiceproduct_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="465" parent="63" name="modified">
+        <state-number>2435</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="466" parent="63" name="created">
+        <state-number>2435</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="467" parent="63" name="name">
+        <state-number>2435</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="468" parent="63" name="price_currency">
+        <state-number>2435</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="469" parent="63" name="price_precision">
+        <state-number>2435</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="470" parent="63" name="price">
+        <state-number>2435</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="471" parent="63" name="amount">
+        <state-number>2435</state-number>
+        <data-type>double precision</data-type>
+      </column>
+      <column id="472" parent="63" name="description">
+        <state-number>2435</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="473" parent="63" name="created_by_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="474" parent="63" name="invoice_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="475" parent="63" name="modified_by_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="476" parent="63" name="product_id">
+        <state-number>2435</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="477" parent="63" name="djangobmf_invoice_invoiceproduct_pkey">
+        <object-id>107300</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="478" parent="63" name="djangobmf_invoice_invoiceproduct_e93cb7eb">
+        <object-id>107357</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="479" parent="63" name="djangobmf_invoice_invoiceproduct_f1f5d967">
+        <object-id>107358</object-id>
+        <columns>invoice_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="480" parent="63" name="djangobmf_invoice_invoiceproduct_b3da0983">
+        <object-id>107359</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="481" parent="63" name="djangobmf_invoice_invoiceproduct_9bea82de">
+        <object-id>107360</object-id>
+        <columns>product_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="482" parent="63" name="djangobmf_invoice_invoiceproduct_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_invoice_invoiceproduct_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="483" parent="63" name="djangobmf_invoice_invoic_created_by_id_5162b68d_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="484" parent="63" name="djangobmf_i_invoice_id_32e8bd4b_fk_djangobmf_invoice_invoice_id">
+        <columns>invoice_id</columns>
+        <ref-key>~.djangobmf_invoice_invoice.djangobmf_invoice_invoice_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="485" parent="63" name="djangobmf_invoice_invoic_modified_by_id_4c21a8d_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="486" parent="63" name="djangobmf_i_product_id_1a8ecb8c_fk_djangobmf_product_product_id">
+        <columns>product_id</columns>
+        <ref-key>~.djangobmf_product_product.djangobmf_product_product_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="487" parent="63" name="djangobmf_invoice_invoiceproduct_price_precision_check">
+        <columns>price_precision</columns>
+        <predicate>price_precision &gt;= 0</predicate>
+      </check>
+      <column id="488" parent="64" name="id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_notification_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="489" parent="64" name="watch_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="490" parent="64" name="triggered">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="491" parent="64" name="unread">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="492" parent="64" name="last_seen_object">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="493" parent="64" name="new_entry">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="494" parent="64" name="comments">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="495" parent="64" name="files">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="496" parent="64" name="detectchanges">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="497" parent="64" name="workflow">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="498" parent="64" name="modified">
+        <state-number>2383</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="499" parent="64" name="user_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="500" parent="64" name="watch_ct_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="501" parent="64" name="djangobmf_notification_pkey">
+        <object-id>106890</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="502" parent="64" name="djangobmf_notification_user_id_23600a36_uniq">
+        <object-id>106929</object-id>
+        <columns>user_id
+watch_ct_id
+watch_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="503" parent="64" name="djangobmf_notification_69b11e68">
+        <object-id>106983</object-id>
+        <columns>watch_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="504" parent="64" name="djangobmf_notification_7c1bdcf7">
+        <object-id>106984</object-id>
+        <columns>triggered</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="505" parent="64" name="djangobmf_notification_4dde6fb5">
+        <object-id>106985</object-id>
+        <columns>unread</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="506" parent="64" name="djangobmf_notification_65ba4428">
+        <object-id>106986</object-id>
+        <columns>new_entry</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="507" parent="64" name="djangobmf_notification_a5d49106">
+        <object-id>106987</object-id>
+        <columns>comments</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="508" parent="64" name="djangobmf_notification_45b96339">
+        <object-id>106988</object-id>
+        <columns>files</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="509" parent="64" name="djangobmf_notification_6e796f2e">
+        <object-id>106989</object-id>
+        <columns>detectchanges</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="510" parent="64" name="djangobmf_notification_2e2e2d35">
+        <object-id>106990</object-id>
+        <columns>workflow</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="511" parent="64" name="djangobmf_notification_e8701ad4">
+        <object-id>106991</object-id>
+        <columns>user_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="512" parent="64" name="djangobmf_notification_5791f930">
+        <object-id>106992</object-id>
+        <columns>watch_ct_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="513" parent="64" name="djangobmf_notification_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_notification_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="514" parent="64" name="djangobmf_notification_user_id_23600a36_uniq">
+        <columns>user_id
+watch_ct_id
+watch_id</columns>
+        <underlying-index>djangobmf_notification_user_id_23600a36_uniq</underlying-index>
+      </key>
+      <foreign-key id="515" parent="64" name="djangobmf_notification_user_id_4ce5e640_fk_auth_user_id">
+        <columns>user_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="516" parent="64" name="djangobmf_notifi_watch_ct_id_318f5eb7_fk_django_content_type_id">
+        <columns>watch_ct_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="517" parent="64" name="djangobmf_notification_watch_id_check">
+        <columns>watch_id</columns>
+        <predicate>watch_id &gt;= 0</predicate>
+      </check>
+      <check id="518" parent="64" name="djangobmf_notification_last_seen_object_check">
+        <columns>last_seen_object</columns>
+        <predicate>last_seen_object &gt;= 0</predicate>
+      </check>
+      <column id="519" parent="65" name="id">
+        <state-number>2383</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_numberrange_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="520" parent="65" name="period_start">
+        <state-number>2383</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="521" parent="65" name="period_final">
+        <state-number>2383</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="522" parent="65" name="counter">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="523" parent="65" name="ct_id">
+        <state-number>2383</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="524" parent="65" name="djangobmf_numberrange_pkey">
+        <object-id>106899</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="525" parent="65" name="djangobmf_numberrange_ct_id_1f237642_uniq">
+        <object-id>106927</object-id>
+        <columns>ct_id
+period_start
+period_final</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="526" parent="65" name="djangobmf_numberrange_c8739ecb">
+        <object-id>106998</object-id>
+        <columns>period_start</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="527" parent="65" name="djangobmf_numberrange_bfc67743">
+        <object-id>106999</object-id>
+        <columns>period_final</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="528" parent="65" name="djangobmf_numberrange_c1cb2d1b">
+        <object-id>107000</object-id>
+        <columns>ct_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="529" parent="65" name="djangobmf_numberrange_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_numberrange_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="530" parent="65" name="djangobmf_numberrange_ct_id_1f237642_uniq">
+        <columns>ct_id
+period_start
+period_final</columns>
+        <underlying-index>djangobmf_numberrange_ct_id_1f237642_uniq</underlying-index>
+      </key>
+      <foreign-key id="531" parent="65" name="djangobmf_numberrange_ct_id_3abe0663_fk_django_content_type_id">
+        <columns>ct_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="532" parent="65" name="djangobmf_numberrange_counter_check">
+        <columns>counter</columns>
+        <predicate>counter &gt;= 0</predicate>
+      </check>
+      <column id="533" parent="66" name="id">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_pdfrenderer_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="534" parent="66" name="name">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="535" parent="66" name="size">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="536" parent="66" name="form">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="537" parent="66" name="template_extends">
+        <state-number>2399</state-number>
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="538" parent="66" name="letter">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="539" parent="66" name="letter_margin_top">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="540" parent="66" name="letter_margin_right">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="541" parent="66" name="letter_margin_bottom">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="542" parent="66" name="letter_margin_left">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="543" parent="66" name="page_margin_top">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="544" parent="66" name="page_margin_right">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="545" parent="66" name="page_margin_bottom">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="546" parent="66" name="page_margin_left">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="547" parent="66" name="modified">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="548" parent="66" name="letter_background_id">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="549" parent="66" name="page_background_id">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="550" parent="66" name="djangobmf_pdfrenderer_pkey">
+        <object-id>107041</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="551" parent="66" name="djangobmf_pdfrenderer_4b2f03cb">
+        <object-id>107067</object-id>
+        <columns>letter_background_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="552" parent="66" name="djangobmf_pdfrenderer_ffada5a0">
+        <object-id>107068</object-id>
+        <columns>page_background_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="553" parent="66" name="djangobmf_pdfrenderer_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_pdfrenderer_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="554" parent="66" name="djangobm_letter_background_id_28be04cd_fk_djangobmf_document_id">
+        <columns>letter_background_id</columns>
+        <ref-key>~.djangobmf_document.djangobmf_document_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="555" parent="66" name="djangobmf__page_background_id_6bcef821_fk_djangobmf_document_id">
+        <columns>page_background_id</columns>
+        <ref-key>~.djangobmf_document.djangobmf_document_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="556" parent="66" name="djangobmf_pdfrenderer_letter_margin_top_check">
+        <columns>letter_margin_top</columns>
+        <predicate>letter_margin_top &gt;= 0</predicate>
+      </check>
+      <check id="557" parent="66" name="djangobmf_pdfrenderer_letter_margin_right_check">
+        <columns>letter_margin_right</columns>
+        <predicate>letter_margin_right &gt;= 0</predicate>
+      </check>
+      <check id="558" parent="66" name="djangobmf_pdfrenderer_letter_margin_bottom_check">
+        <columns>letter_margin_bottom</columns>
+        <predicate>letter_margin_bottom &gt;= 0</predicate>
+      </check>
+      <check id="559" parent="66" name="djangobmf_pdfrenderer_letter_margin_left_check">
+        <columns>letter_margin_left</columns>
+        <predicate>letter_margin_left &gt;= 0</predicate>
+      </check>
+      <check id="560" parent="66" name="djangobmf_pdfrenderer_page_margin_top_check">
+        <columns>page_margin_top</columns>
+        <predicate>page_margin_top &gt;= 0</predicate>
+      </check>
+      <check id="561" parent="66" name="djangobmf_pdfrenderer_page_margin_right_check">
+        <columns>page_margin_right</columns>
+        <predicate>page_margin_right &gt;= 0</predicate>
+      </check>
+      <check id="562" parent="66" name="djangobmf_pdfrenderer_page_margin_bottom_check">
+        <columns>page_margin_bottom</columns>
+        <predicate>page_margin_bottom &gt;= 0</predicate>
+      </check>
+      <check id="563" parent="66" name="djangobmf_pdfrenderer_page_margin_left_check">
+        <columns>page_margin_left</columns>
+        <predicate>page_margin_left &gt;= 0</predicate>
+      </check>
+      <column id="564" parent="67" name="id">
+        <state-number>2450</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_position_position_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="565" parent="67" name="modified">
+        <state-number>2450</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="566" parent="67" name="created">
+        <state-number>2450</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="567" parent="67" name="date">
+        <state-number>2450</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="568" parent="67" name="name">
+        <state-number>2450</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="569" parent="67" name="invoiceable">
+        <state-number>2450</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="570" parent="67" name="price">
+        <state-number>2450</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="571" parent="67" name="price_currency">
+        <state-number>2450</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="572" parent="67" name="price_precision">
+        <state-number>2450</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="573" parent="67" name="amount">
+        <state-number>2450</state-number>
+        <data-type>double precision</data-type>
+      </column>
+      <column id="574" parent="67" name="description">
+        <state-number>2450</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="575" parent="67" name="created_by_id">
+        <state-number>2450</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="576" parent="67" name="invoice_id">
+        <state-number>2450</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="577" parent="67" name="modified_by_id">
+        <state-number>2450</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="578" parent="67" name="product_id">
+        <state-number>2450</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="579" parent="67" name="employee_id">
+        <state-number>2452</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="580" parent="67" name="project_id">
+        <state-number>2454</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="581" parent="67" name="djangobmf_position_position_pkey">
+        <object-id>107417</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="582" parent="67" name="djangobmf_position_position_e93cb7eb">
+        <object-id>107440</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="583" parent="67" name="djangobmf_position_position_f1f5d967">
+        <object-id>107441</object-id>
+        <columns>invoice_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="584" parent="67" name="djangobmf_position_position_b3da0983">
+        <object-id>107442</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="585" parent="67" name="djangobmf_position_position_9bea82de">
+        <object-id>107443</object-id>
+        <columns>product_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="586" parent="67" name="djangobmf_position_position_dcc97e32">
+        <object-id>107445</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="587" parent="67" name="djangobmf_position_position_b098ad43">
+        <object-id>107451</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="588" parent="67" name="djangobmf_position_position_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_position_position_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="589" parent="67" name="djangobmf_position_positi_created_by_id_b049600_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="590" parent="67" name="djangobmf_p_invoice_id_12944562_fk_djangobmf_invoice_invoice_id">
+        <columns>invoice_id</columns>
+        <ref-key>~.djangobmf_invoice_invoice.djangobmf_invoice_invoice_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="591" parent="67" name="djangobmf_position_posi_modified_by_id_2ffb9a00_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="592" parent="67" name="djangobmf_p_product_id_762aaaff_fk_djangobmf_product_product_id">
+        <columns>product_id</columns>
+        <ref-key>~.djangobmf_product_product.djangobmf_product_product_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="593" parent="67" name="djangobm_employee_id_6f4b2661_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="594" parent="67" name="djangobmf_p_project_id_3247f5e4_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="595" parent="67" name="djangobmf_position_position_invoiceable_check">
+        <columns>invoiceable</columns>
+        <predicate>invoiceable &gt;= 0</predicate>
+      </check>
+      <check id="596" parent="67" name="djangobmf_position_position_price_precision_check">
+        <columns>price_precision</columns>
+        <predicate>price_precision &gt;= 0</predicate>
+      </check>
+      <column id="597" parent="68" name="id">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_product_product_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="598" parent="68" name="modified">
+        <state-number>2421</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="599" parent="68" name="created">
+        <state-number>2421</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="600" parent="68" name="name">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="601" parent="68" name="code">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="602" parent="68" name="type">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="603" parent="68" name="can_sold">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="604" parent="68" name="can_purchased">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="605" parent="68" name="description">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="606" parent="68" name="price_currency">
+        <state-number>2421</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="607" parent="68" name="price_precision">
+        <state-number>2421</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="608" parent="68" name="price">
+        <state-number>2421</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="609" parent="68" name="created_by_id">
+        <state-number>2421</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="610" parent="68" name="expense_account_id">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="611" parent="68" name="income_account_id">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="612" parent="68" name="modified_by_id">
+        <state-number>2421</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="613" parent="68" name="djangobmf_product_product_pkey">
+        <object-id>107165</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="614" parent="68" name="djangobmf_product_product_c1336794">
+        <object-id>107198</object-id>
+        <columns>code</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="615" parent="68" name="djangobmf_product_product_code_1fcd5089_like">
+        <object-id>107206</object-id>
+        <columns>code</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="616" parent="68" name="djangobmf_product_product_e095eaaa">
+        <object-id>107199</object-id>
+        <columns>can_sold</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="617" parent="68" name="djangobmf_product_product_93c64fd1">
+        <object-id>107200</object-id>
+        <columns>can_purchased</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="618" parent="68" name="djangobmf_product_product_e93cb7eb">
+        <object-id>107201</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="619" parent="68" name="djangobmf_product_product_c3db62fe">
+        <object-id>107202</object-id>
+        <columns>expense_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="620" parent="68" name="djangobmf_product_product_87370847">
+        <object-id>107203</object-id>
+        <columns>income_account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="621" parent="68" name="djangobmf_product_product_b3da0983">
+        <object-id>107204</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="622" parent="68" name="djangobmf_product_product_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_product_product_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="623" parent="68" name="djangobmf_product_produc_created_by_id_101b8a88_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="624" parent="68" name="expense_account_id_39ace112_fk_djangobmf_accounting_account_id">
+        <columns>expense_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="625" parent="68" name="d_income_account_id_6eaf87fb_fk_djangobmf_accounting_account_id">
+        <columns>income_account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="626" parent="68" name="djangobmf_product_produ_modified_by_id_287c8978_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="627" parent="68" name="djangobmf_product_product_type_check">
+        <columns>type</columns>
+        <predicate>type &gt;= 0</predicate>
+      </check>
+      <check id="628" parent="68" name="djangobmf_product_product_price_precision_check">
+        <columns>price_precision</columns>
+        <predicate>price_precision &gt;= 0</predicate>
+      </check>
+      <column id="629" parent="69" name="id">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_product_producttax_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="630" parent="69" name="included">
+        <state-number>2421</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="631" parent="69" name="product_id">
+        <state-number>2421</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="632" parent="69" name="tax_id">
+        <state-number>2421</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="633" parent="69" name="created">
+        <state-number>2465</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="634" parent="69" name="created_by_id">
+        <state-number>2465</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="635" parent="69" name="modified">
+        <state-number>2465</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="636" parent="69" name="modified_by_id">
+        <state-number>2465</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="637" parent="69" name="djangobmf_product_producttax_pkey">
+        <object-id>107173</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="638" parent="69" name="djangobmf_product_producttax_product_id_1453063a_uniq">
+        <object-id>107175</object-id>
+        <columns>product_id
+tax_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="639" parent="69" name="djangobmf_product_producttax_9bea82de">
+        <object-id>107217</object-id>
+        <columns>product_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="640" parent="69" name="djangobmf_product_producttax_59fc14e7">
+        <object-id>107218</object-id>
+        <columns>tax_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="641" parent="69" name="djangobmf_product_producttax_e93cb7eb">
+        <object-id>107477</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="642" parent="69" name="djangobmf_product_producttax_b3da0983">
+        <object-id>107483</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="643" parent="69" name="djangobmf_product_producttax_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_product_producttax_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="644" parent="69" name="djangobmf_product_producttax_product_id_1453063a_uniq">
+        <columns>product_id
+tax_id</columns>
+        <underlying-index>djangobmf_product_producttax_product_id_1453063a_uniq</underlying-index>
+      </key>
+      <foreign-key id="645" parent="69" name="djangobmf_p_product_id_12bbb383_fk_djangobmf_product_product_id">
+        <columns>product_id</columns>
+        <ref-key>~.djangobmf_product_product.djangobmf_product_product_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="646" parent="69" name="djangobmf_product_pro_tax_id_3745d5e_fk_djangobmf_taxing_tax_id">
+        <columns>tax_id</columns>
+        <ref-key>~.djangobmf_taxing_tax.djangobmf_taxing_tax_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="647" parent="69" name="djangobmf_product_produc_created_by_id_48187044_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="648" parent="69" name="djangobmf_product_produ_modified_by_id_3735fbbc_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="649" parent="70" name="id">
+        <state-number>2369</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_project_project_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="650" parent="70" name="modified">
+        <state-number>2369</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="651" parent="70" name="created">
+        <state-number>2369</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="652" parent="70" name="name">
+        <state-number>2369</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="653" parent="70" name="is_active">
+        <state-number>2369</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="654" parent="70" name="notes">
+        <state-number>2369</state-number>
+        <mandatory>1</mandatory>
+        <data-type>text</data-type>
+      </column>
+      <column id="655" parent="70" name="created_by_id">
+        <state-number>2369</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="656" parent="70" name="modified_by_id">
+        <state-number>2369</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="657" parent="70" name="customer_id">
+        <state-number>2469</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="658" parent="70" name="team_id">
+        <state-number>2473</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="659" parent="70" name="djangobmf_project_project_pkey">
+        <object-id>106656</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="660" parent="70" name="djangobmf_project_project_e93cb7eb">
+        <object-id>106669</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="661" parent="70" name="djangobmf_project_project_b3da0983">
+        <object-id>106670</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="662" parent="70" name="djangobmf_project_project_cb24373b">
+        <object-id>107533</object-id>
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="663" parent="70" name="djangobmf_project_project_f6a7ca40">
+        <object-id>107561</object-id>
+        <columns>team_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="664" parent="70" name="djangobmf_project_project_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_project_project_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="665" parent="70" name="djangobmf_project_project_created_by_id_34961a7_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="666" parent="70" name="djangobmf_project_proje_modified_by_id_18b37da7_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="667" parent="70" name="djangobm_customer_id_3fbac161_fk_djangobmf_customer_customer_id">
+        <columns>customer_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="668" parent="70" name="djangobmf_project_pr_team_id_71354881_fk_djangobmf_team_team_id">
+        <columns>team_id</columns>
+        <ref-key>~.djangobmf_team_team.djangobmf_team_team_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="669" parent="71" name="id">
+        <state-number>2473</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_project_project_employees_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="670" parent="71" name="project_id">
+        <state-number>2473</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="671" parent="71" name="employee_id">
+        <state-number>2473</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="672" parent="71" name="djangobmf_project_project_employees_pkey">
+        <object-id>107545</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="673" parent="71" name="djangobmf_project_project_employees_project_id_employee_id_key">
+        <object-id>107547</object-id>
+        <columns>project_id
+employee_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="674" parent="71" name="djangobmf_project_project_employees_b098ad43">
+        <object-id>107559</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="675" parent="71" name="djangobmf_project_project_employees_dcc97e32">
+        <object-id>107560</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="676" parent="71" name="djangobmf_project_project_employees_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_project_project_employees_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="677" parent="71" name="djangobmf_project_project_employees_project_id_employee_id_key">
+        <columns>project_id
+employee_id</columns>
+        <underlying-index>djangobmf_project_project_employees_project_id_employee_id_key</underlying-index>
+      </key>
+      <foreign-key id="678" parent="71" name="djangobmf_pro_project_id_708c9f_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="679" parent="71" name="djangobmf_employee_id_e429faa_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="680" parent="72" name="id">
+        <state-number>2480</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_quotation_quotation_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="681" parent="72" name="modified">
+        <state-number>2480</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="682" parent="72" name="created">
+        <state-number>2480</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="683" parent="72" name="state">
+        <state-number>2480</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="684" parent="72" name="quotation_number">
+        <state-number>2480</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="685" parent="72" name="net">
+        <state-number>2480</state-number>
+        <data-type>double precision</data-type>
+      </column>
+      <column id="686" parent="72" name="date">
+        <state-number>2480</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="687" parent="72" name="valid_until">
+        <state-number>2480</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="688" parent="72" name="notes">
+        <state-number>2480</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="689" parent="72" name="term_of_payment">
+        <state-number>2480</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="690" parent="72" name="completed">
+        <state-number>2480</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="691" parent="72" name="created_by_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="692" parent="72" name="customer_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="693" parent="72" name="employee_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="694" parent="72" name="invoice_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="695" parent="72" name="invoice_address_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="696" parent="72" name="modified_by_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="697" parent="72" name="project_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="698" parent="72" name="shipping_address_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="699" parent="72" name="djangobmf_quotation_quotation_pkey">
+        <object-id>107586</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="700" parent="72" name="djangobmf_quotation_quotation_invoice_id_key">
+        <object-id>107588</object-id>
+        <columns>invoice_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="701" parent="72" name="djangobmf_quotation_quotation_9ed39e2e">
+        <object-id>107633</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="702" parent="72" name="djangobmf_quotation_quotation_state_68b55e6f_like">
+        <object-id>107640</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="703" parent="72" name="djangobmf_quotation_quotation_e93cb7eb">
+        <object-id>107634</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="704" parent="72" name="djangobmf_quotation_quotation_cb24373b">
+        <object-id>107635</object-id>
+        <columns>customer_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="705" parent="72" name="djangobmf_quotation_quotation_dcc97e32">
+        <object-id>107636</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="706" parent="72" name="djangobmf_quotation_quotation_7ea08e4e">
+        <object-id>107637</object-id>
+        <columns>invoice_address_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="707" parent="72" name="djangobmf_quotation_quotation_b3da0983">
+        <object-id>107638</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="708" parent="72" name="djangobmf_quotation_quotation_b098ad43">
+        <object-id>107667</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="709" parent="72" name="djangobmf_quotation_quotation_8fb9ffec">
+        <object-id>107673</object-id>
+        <columns>shipping_address_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="710" parent="72" name="djangobmf_quotation_quotation_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_quotation_quotation_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="711" parent="72" name="djangobmf_quotation_quotation_invoice_id_key">
+        <columns>invoice_id</columns>
+        <underlying-index>djangobmf_quotation_quotation_invoice_id_key</underlying-index>
+      </key>
+      <foreign-key id="712" parent="72" name="djangobmf_quotation_quota_created_by_id_4cddb34_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="713" parent="72" name="djangobm_customer_id_1f868dee_fk_djangobmf_customer_customer_id">
+        <columns>customer_id</columns>
+        <ref-key>~.djangobmf_customer_customer.djangobmf_customer_customer_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="714" parent="72" name="djangobm_employee_id_20a1336b_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="715" parent="72" name="djangobmf_q_invoice_id_5ab4a3ea_fk_djangobmf_invoice_invoice_id">
+        <columns>invoice_id</columns>
+        <ref-key>~.djangobmf_invoice_invoice.djangobmf_invoice_invoice_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="716" parent="72" name="dja_invoice_address_id_144abfba_fk_djangobmf_address_address_id">
+        <columns>invoice_address_id</columns>
+        <ref-key>~.djangobmf_address_address.djangobmf_address_address_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="717" parent="72" name="djangobmf_quotation_quo_modified_by_id_2a02c0cc_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="718" parent="72" name="djangobmf_q_project_id_673bd5d0_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="719" parent="72" name="dj_shipping_address_id_5e1685c4_fk_djangobmf_address_address_id">
+        <columns>shipping_address_id</columns>
+        <ref-key>~.djangobmf_address_address.djangobmf_address_address_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="720" parent="73" name="id">
+        <state-number>2480</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_quotation_quotationproduct_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="721" parent="73" name="modified">
+        <state-number>2480</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="722" parent="73" name="created">
+        <state-number>2480</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="723" parent="73" name="name">
+        <state-number>2480</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="724" parent="73" name="price_currency">
+        <state-number>2480</state-number>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="725" parent="73" name="price_precision">
+        <state-number>2480</state-number>
+        <data-type>smallint</data-type>
+      </column>
+      <column id="726" parent="73" name="price">
+        <state-number>2480</state-number>
+        <data-type>numeric(27,9)</data-type>
+      </column>
+      <column id="727" parent="73" name="amount">
+        <state-number>2480</state-number>
+        <data-type>double precision</data-type>
+      </column>
+      <column id="728" parent="73" name="description">
+        <state-number>2480</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="729" parent="73" name="created_by_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="730" parent="73" name="modified_by_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="731" parent="73" name="product_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="732" parent="73" name="quotation_id">
+        <state-number>2480</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="733" parent="73" name="djangobmf_quotation_quotationproduct_pkey">
+        <object-id>107600</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="734" parent="73" name="djangobmf_quotation_quotationproduct_e93cb7eb">
+        <object-id>107662</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="735" parent="73" name="djangobmf_quotation_quotationproduct_b3da0983">
+        <object-id>107663</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="736" parent="73" name="djangobmf_quotation_quotationproduct_9bea82de">
+        <object-id>107664</object-id>
+        <columns>product_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="737" parent="73" name="djangobmf_quotation_quotationproduct_2b6213d5">
+        <object-id>107665</object-id>
+        <columns>quotation_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="738" parent="73" name="djangobmf_quotation_quotationproduct_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_quotation_quotationproduct_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="739" parent="73" name="djangobmf_quotation_quota_created_by_id_9b97f11_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="740" parent="73" name="djangobmf_quotation_quo_modified_by_id_33d6b311_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="741" parent="73" name="djangobmf_q_product_id_2a9b9c62_fk_djangobmf_product_product_id">
+        <columns>product_id</columns>
+        <ref-key>~.djangobmf_product_product.djangobmf_product_product_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="742" parent="73" name="djang_quotation_id_4ea76a0f_fk_djangobmf_quotation_quotation_id">
+        <columns>quotation_id</columns>
+        <ref-key>~.djangobmf_quotation_quotation.djangobmf_quotation_quotation_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="743" parent="73" name="djangobmf_quotation_quotationproduct_price_precision_check">
+        <columns>price_precision</columns>
+        <predicate>price_precision &gt;= 0</predicate>
+      </check>
+      <column id="744" parent="74" name="id">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_report_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="745" parent="74" name="name">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(120)</data-type>
+      </column>
+      <column id="746" parent="74" name="slug">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(120)</data-type>
+      </column>
+      <column id="747" parent="74" name="renderer_pk">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="748" parent="74" name="renderer_view">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(254)</data-type>
+      </column>
+      <column id="749" parent="74" name="has_object">
+        <state-number>2399</state-number>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="750" parent="74" name="enabled">
+        <state-number>2399</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="751" parent="74" name="modified">
+        <state-number>2399</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="752" parent="74" name="created">
+        <state-number>2399</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="753" parent="74" name="contenttype_id">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="754" parent="74" name="renderer_ct_id">
+        <state-number>2399</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="755" parent="74" name="djangobmf_report_pkey">
+        <object-id>107053</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="756" parent="74" name="djangobmf_report_slug_200f98f_uniq">
+        <object-id>107055</object-id>
+        <columns>slug
+contenttype_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="757" parent="74" name="djangobmf_report_17321e91">
+        <object-id>107079</object-id>
+        <columns>contenttype_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="758" parent="74" name="djangobmf_report_20db9789">
+        <object-id>107080</object-id>
+        <columns>renderer_ct_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="759" parent="74" name="djangobmf_report_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_report_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="760" parent="74" name="djangobmf_report_slug_200f98f_uniq">
+        <columns>slug
+contenttype_id</columns>
+        <underlying-index>djangobmf_report_slug_200f98f_uniq</underlying-index>
+      </key>
+      <foreign-key id="761" parent="74" name="djangobmf_rep_contenttype_id_6db11335_fk_django_content_type_id">
+        <columns>contenttype_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="762" parent="74" name="djangobmf_rep_renderer_ct_id_477578f3_fk_django_content_type_id">
+        <columns>renderer_ct_id</columns>
+        <ref-key>~.django_content_type.django_content_type_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <check id="763" parent="74" name="djangobmf_report_renderer_pk_check">
+        <columns>renderer_pk</columns>
+        <predicate>renderer_pk &gt;= 0</predicate>
+      </check>
+      <column id="764" parent="75" name="id">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_task_goal_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="765" parent="75" name="modified">
+        <state-number>2494</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="766" parent="75" name="created">
+        <state-number>2494</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="767" parent="75" name="state">
+        <state-number>2494</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="768" parent="75" name="summary">
+        <state-number>2494</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="769" parent="75" name="description">
+        <state-number>2494</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="770" parent="75" name="completed">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="771" parent="75" name="created_by_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="772" parent="75" name="modified_by_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="773" parent="75" name="project_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="774" parent="75" name="referee_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="775" parent="75" name="team_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="776" parent="75" name="djangobmf_task_goal_pkey">
+        <object-id>107708</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="777" parent="75" name="djangobmf_task_goal_9ed39e2e">
+        <object-id>107757</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="778" parent="75" name="djangobmf_task_goal_state_4c6b9e5d_like">
+        <object-id>107764</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="779" parent="75" name="djangobmf_task_goal_e93cb7eb">
+        <object-id>107758</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="780" parent="75" name="djangobmf_task_goal_b3da0983">
+        <object-id>107759</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="781" parent="75" name="djangobmf_task_goal_b098ad43">
+        <object-id>107760</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="782" parent="75" name="djangobmf_task_goal_3cf09080">
+        <object-id>107761</object-id>
+        <columns>referee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="783" parent="75" name="djangobmf_task_goal_f6a7ca40">
+        <object-id>107762</object-id>
+        <columns>team_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="784" parent="75" name="djangobmf_task_goal_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_task_goal_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="785" parent="75" name="djangobmf_task_goal_created_by_id_45728980_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="786" parent="75" name="djangobmf_task_goal_modified_by_id_66581d80_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="787" parent="75" name="djangobmf_t_project_id_5322d29c_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="788" parent="75" name="djangobmf_referee_id_60c1102f_fk_djangobmf_employee_employee_id">
+        <columns>referee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="789" parent="75" name="djangobmf_task_goal_team_id_457717a6_fk_djangobmf_team_team_id">
+        <columns>team_id</columns>
+        <ref-key>~.djangobmf_team_team.djangobmf_team_team_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="790" parent="76" name="id">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_task_goal_employees_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="791" parent="76" name="goal_id">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="792" parent="76" name="employee_id">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <index id="793" parent="76" name="djangobmf_task_goal_employees_pkey">
+        <object-id>107716</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="794" parent="76" name="djangobmf_task_goal_employees_goal_id_employee_id_key">
+        <object-id>107718</object-id>
+        <columns>goal_id
+employee_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="795" parent="76" name="djangobmf_task_goal_employees_b730706b">
+        <object-id>107775</object-id>
+        <columns>goal_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="796" parent="76" name="djangobmf_task_goal_employees_dcc97e32">
+        <object-id>107776</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="797" parent="76" name="djangobmf_task_goal_employees_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_task_goal_employees_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="798" parent="76" name="djangobmf_task_goal_employees_goal_id_employee_id_key">
+        <columns>goal_id
+employee_id</columns>
+        <underlying-index>djangobmf_task_goal_employees_goal_id_employee_id_key</underlying-index>
+      </key>
+      <foreign-key id="799" parent="76" name="djangobmf_task_goal__goal_id_2bf79b0e_fk_djangobmf_task_goal_id">
+        <columns>goal_id</columns>
+        <ref-key>~.djangobmf_task_goal.djangobmf_task_goal_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="800" parent="76" name="djangobm_employee_id_543ac3bc_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="801" parent="77" name="id">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_task_task_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="802" parent="77" name="modified">
+        <state-number>2494</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="803" parent="77" name="created">
+        <state-number>2494</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="804" parent="77" name="state">
+        <state-number>2494</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="805" parent="77" name="summary">
+        <state-number>2494</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="806" parent="77" name="description">
+        <state-number>2494</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="807" parent="77" name="due_date">
+        <state-number>2494</state-number>
+        <data-type>date</data-type>
+      </column>
+      <column id="808" parent="77" name="completed">
+        <state-number>2494</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="809" parent="77" name="created_by_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="810" parent="77" name="employee_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="811" parent="77" name="goal_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="812" parent="77" name="in_charge_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="813" parent="77" name="modified_by_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="814" parent="77" name="project_id">
+        <state-number>2494</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="815" parent="77" name="djangobmf_task_task_pkey">
+        <object-id>107729</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="816" parent="77" name="djangobmf_task_task_9ed39e2e">
+        <object-id>107808</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="817" parent="77" name="djangobmf_task_task_state_795f13f7_like">
+        <object-id>107816</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="818" parent="77" name="djangobmf_task_task_e93cb7eb">
+        <object-id>107809</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="819" parent="77" name="djangobmf_task_task_dcc97e32">
+        <object-id>107810</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="820" parent="77" name="djangobmf_task_task_b730706b">
+        <object-id>107811</object-id>
+        <columns>goal_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="821" parent="77" name="djangobmf_task_task_68cc21f8">
+        <object-id>107812</object-id>
+        <columns>in_charge_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="822" parent="77" name="djangobmf_task_task_b3da0983">
+        <object-id>107813</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="823" parent="77" name="djangobmf_task_task_b098ad43">
+        <object-id>107814</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="824" parent="77" name="djangobmf_task_task_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_task_task_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="825" parent="77" name="djangobmf_task_task_created_by_id_4a971cd4_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="826" parent="77" name="djangobm_employee_id_2c9fdf8d_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="827" parent="77" name="djangobmf_task_task_goal_id_6d29a191_fk_djangobmf_task_goal_id">
+        <columns>goal_id</columns>
+        <ref-key>~.djangobmf_task_goal.djangobmf_task_goal_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="828" parent="77" name="djangob_in_charge_id_41430f99_fk_djangobmf_employee_employee_id">
+        <columns>in_charge_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="829" parent="77" name="djangobmf_task_task_modified_by_id_631c50d4_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="830" parent="77" name="djangobmf_t_project_id_322dcd18_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="831" parent="78" name="id">
+        <state-number>2418</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_taxing_tax_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="832" parent="78" name="modified">
+        <state-number>2418</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="833" parent="78" name="created">
+        <state-number>2418</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="834" parent="78" name="name">
+        <state-number>2418</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="835" parent="78" name="rate">
+        <state-number>2418</state-number>
+        <mandatory>1</mandatory>
+        <data-type>numeric(8,5)</data-type>
+      </column>
+      <column id="836" parent="78" name="is_active">
+        <state-number>2418</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="837" parent="78" name="account_id">
+        <state-number>2418</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+      </column>
+      <column id="838" parent="78" name="created_by_id">
+        <state-number>2418</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="839" parent="78" name="modified_by_id">
+        <state-number>2418</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="840" parent="78" name="djangobmf_taxing_tax_pkey">
+        <object-id>107132</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="841" parent="78" name="djangobmf_taxing_tax_8a089c2a">
+        <object-id>107150</object-id>
+        <columns>account_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="842" parent="78" name="djangobmf_taxing_tax_e93cb7eb">
+        <object-id>107151</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="843" parent="78" name="djangobmf_taxing_tax_b3da0983">
+        <object-id>107152</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="844" parent="78" name="djangobmf_taxing_tax_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_taxing_tax_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="845" parent="78" name="djangobmf_account_id_6fc15de_fk_djangobmf_accounting_account_id">
+        <columns>account_id</columns>
+        <ref-key>~.djangobmf_accounting_account.djangobmf_accounting_account_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="846" parent="78" name="djangobmf_taxing_tax_created_by_id_352eaff4_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="847" parent="78" name="djangobmf_taxing_tax_modified_by_id_2142e40c_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="848" parent="79" name="id">
+        <state-number>2467</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_team_team_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="849" parent="79" name="modified">
+        <state-number>2467</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="850" parent="79" name="created">
+        <state-number>2467</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="851" parent="79" name="name">
+        <state-number>2467</state-number>
+        <mandatory>1</mandatory>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="852" parent="79" name="created_by_id">
+        <state-number>2467</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="853" parent="79" name="modified_by_id">
+        <state-number>2467</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="854" parent="79" name="djangobmf_team_team_pkey">
+        <object-id>107495</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="855" parent="79" name="djangobmf_team_team_e93cb7eb">
+        <object-id>107518</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="856" parent="79" name="djangobmf_team_team_b3da0983">
+        <object-id>107519</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="857" parent="79" name="djangobmf_team_team_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_team_team_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="858" parent="79" name="djangobmf_team_team_created_by_id_3af50043_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="859" parent="79" name="djangobmf_team_team_modified_by_id_415263bd_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="860" parent="80" name="id">
+        <state-number>2467</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_team_teammember_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="861" parent="80" name="is_manager">
+        <state-number>2467</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="862" parent="80" name="employee_id">
+        <state-number>2467</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="863" parent="80" name="team_id">
+        <state-number>2467</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="864" parent="80" name="created">
+        <state-number>2513</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="865" parent="80" name="created_by_id">
+        <state-number>2513</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="866" parent="80" name="modified">
+        <state-number>2513</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="867" parent="80" name="modified_by_id">
+        <state-number>2513</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="868" parent="80" name="djangobmf_team_teammember_pkey">
+        <object-id>107503</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="869" parent="80" name="djangobmf_team_teammember_team_id_33f67eb2_uniq">
+        <object-id>107505</object-id>
+        <columns>team_id
+employee_id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="870" parent="80" name="djangobmf_team_teammember_dcc97e32">
+        <object-id>107531</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="871" parent="80" name="djangobmf_team_teammember_f6a7ca40">
+        <object-id>107532</object-id>
+        <columns>team_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="872" parent="80" name="djangobmf_team_teammember_e93cb7eb">
+        <object-id>107847</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="873" parent="80" name="djangobmf_team_teammember_b3da0983">
+        <object-id>107853</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="874" parent="80" name="djangobmf_team_teammember_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_team_teammember_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <key id="875" parent="80" name="djangobmf_team_teammember_team_id_33f67eb2_uniq">
+        <columns>team_id
+employee_id</columns>
+        <underlying-index>djangobmf_team_teammember_team_id_33f67eb2_uniq</underlying-index>
+      </key>
+      <foreign-key id="876" parent="80" name="djangobm_employee_id_6331006e_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="877" parent="80" name="djangobmf_team_teamme_team_id_d9f79cb_fk_djangobmf_team_team_id">
+        <columns>team_id</columns>
+        <ref-key>~.djangobmf_team_team.djangobmf_team_team_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="878" parent="80" name="djangobmf_team_teammembe_created_by_id_32e8075b_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="879" parent="80" name="djangobmf_team_teammemb_modified_by_id_34798b5b_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <column id="880" parent="81" name="id">
+        <state-number>2519</state-number>
+        <mandatory>1</mandatory>
+        <data-type>integer</data-type>
+        <default-expression>nextval(&apos;djangobmf_timesheet_timesheet_id_seq&apos;::regclass)</default-expression>
+      </column>
+      <column id="881" parent="81" name="modified">
+        <state-number>2519</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="882" parent="81" name="created">
+        <state-number>2519</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="883" parent="81" name="state">
+        <state-number>2519</state-number>
+        <data-type>varchar(32)</data-type>
+      </column>
+      <column id="884" parent="81" name="summary">
+        <state-number>2519</state-number>
+        <data-type>varchar(255)</data-type>
+      </column>
+      <column id="885" parent="81" name="description">
+        <state-number>2519</state-number>
+        <data-type>text</data-type>
+      </column>
+      <column id="886" parent="81" name="start">
+        <state-number>2519</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="887" parent="81" name="end">
+        <state-number>2519</state-number>
+        <data-type>timestamp with time zone</data-type>
+      </column>
+      <column id="888" parent="81" name="valid">
+        <state-number>2519</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="889" parent="81" name="created_by_id">
+        <state-number>2519</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="890" parent="81" name="employee_id">
+        <state-number>2519</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="891" parent="81" name="modified_by_id">
+        <state-number>2519</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="892" parent="81" name="project_id">
+        <state-number>2519</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="893" parent="81" name="task_id">
+        <state-number>2519</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <column id="894" parent="81" name="auto">
+        <state-number>2521</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="895" parent="81" name="billable">
+        <state-number>2529</state-number>
+        <mandatory>1</mandatory>
+        <data-type>boolean</data-type>
+      </column>
+      <column id="896" parent="81" name="goal_id">
+        <state-number>2531</state-number>
+        <data-type>integer</data-type>
+      </column>
+      <index id="897" parent="81" name="djangobmf_timesheet_timesheet_pkey">
+        <object-id>107889</object-id>
+        <columns>id</columns>
+        <desc-columns></desc-columns>
+        <unique>1</unique>
+      </index>
+      <index id="898" parent="81" name="djangobmf_timesheet_timesheet_9ed39e2e">
+        <object-id>107917</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="899" parent="81" name="djangobmf_timesheet_timesheet_state_f52ec0d_like">
+        <object-id>107924</object-id>
+        <columns>state</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="900" parent="81" name="djangobmf_timesheet_timesheet_e93cb7eb">
+        <object-id>107918</object-id>
+        <columns>created_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="901" parent="81" name="djangobmf_timesheet_timesheet_dcc97e32">
+        <object-id>107919</object-id>
+        <columns>employee_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="902" parent="81" name="djangobmf_timesheet_timesheet_b3da0983">
+        <object-id>107920</object-id>
+        <columns>modified_by_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="903" parent="81" name="djangobmf_timesheet_timesheet_b098ad43">
+        <object-id>107921</object-id>
+        <columns>project_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="904" parent="81" name="djangobmf_timesheet_timesheet_57746cc8">
+        <object-id>107922</object-id>
+        <columns>task_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <index id="905" parent="81" name="djangobmf_timesheet_timesheet_b730706b">
+        <object-id>107967</object-id>
+        <columns>goal_id</columns>
+        <desc-columns></desc-columns>
+      </index>
+      <key id="906" parent="81" name="djangobmf_timesheet_timesheet_pkey">
+        <columns>id</columns>
+        <underlying-index>djangobmf_timesheet_timesheet_pkey</underlying-index>
+        <primary>1</primary>
+      </key>
+      <foreign-key id="907" parent="81" name="djangobmf_timesheet_time_created_by_id_2faa9450_fk_auth_user_id">
+        <columns>created_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="908" parent="81" name="djangobm_employee_id_78ce5def_fk_djangobmf_employee_employee_id">
+        <columns>employee_id</columns>
+        <ref-key>~.djangobmf_employee_employee.djangobmf_employee_employee_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="909" parent="81" name="djangobmf_timesheet_tim_modified_by_id_56c59850_fk_auth_user_id">
+        <columns>modified_by_id</columns>
+        <ref-key>~.auth_user.auth_user_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="910" parent="81" name="djangobmf_t_project_id_2c96834c_fk_djangobmf_project_project_id">
+        <columns>project_id</columns>
+        <ref-key>~.djangobmf_project_project.djangobmf_project_project_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="911" parent="81" name="djangobmf_timesheet_t_task_id_9ca25d6_fk_djangobmf_task_task_id">
+        <columns>task_id</columns>
+        <ref-key>~.djangobmf_task_task.djangobmf_task_task_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+      <foreign-key id="912" parent="81" name="djangobmf_timesheet__goal_id_38dc1a45_fk_djangobmf_task_goal_id">
+        <columns>goal_id</columns>
+        <ref-key>~.djangobmf_task_goal.djangobmf_task_goal_pkey</ref-key>
+        <cascade-update-rule>restrict</cascade-update-rule>
+        <cascade-delete-rule>restrict</cascade-delete-rule>
+      </foreign-key>
+    </database-model>
+  </data-source>
+</component>
